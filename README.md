@@ -1,4 +1,7 @@
 # hospital-readmission-capstone
+
+**TL;DR:** Threshold-tuned Random Forest optimized for **Recall ≈ 98%** (thr ≈ 0.373). One-page Power BI shows KPIs, confusion matrix, probability distribution, and top features.
+
 Recall-first ML project predicting 30-day hospital readmissions. Includes EDA &amp; model notebooks (Logistic Regression &amp; Random Forest with threshold tuning), a Power BI dashboard, and reproducibility notes. Raw data excluded; see /data/README.md for access instructions.
 
 # Hospital Readmission Prediction (Capstone)
@@ -7,6 +10,11 @@ Predicting 30-day hospital readmissions from structured EHR-like tabular data.
 Focus: **high recall** to catch as many potential readmissions as possible, with model transparency and an Ops-friendly Power BI view.
 
 ![Power BI Dashboard](reports/PowerBI_dashboard.png)
+
+**Quick links:**  
+- EDA notebook → [`00_capstone_eda.ipynb`](notebooks/00_capstone_eda.ipynb)  
+- Modeling notebook → [`01_capstone_models.ipynb`](notebooks/01_capstone_models.ipynb)
+
 
 ---
 
@@ -48,6 +56,7 @@ Hospital_Readmission_Capstone/
 ---
 
 ## 🛠️ Tech & Tools
+Tested on **Python 3.11** and **Power BI Desktop (Nov 2024+)**.
 - **Python**: pandas, numpy, matplotlib, scikit-learn  
 - **Power BI**: single-page ops dashboard (.pbix)  
 - **Environment**: Jupyter Notebooks (no re-run required to read; code and outputs are preserved)
