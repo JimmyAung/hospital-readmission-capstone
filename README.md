@@ -10,6 +10,10 @@ Predicting 30-day hospital readmissions from structured EHR-like tabular data.
 Focus: **high recall** to catch as many potential readmissions as possible, with model transparency and an Ops-friendly Power BI view.
 
 ![Power BI dashboard showing KPIs, probability distribution and top features](reports/PowerBI_dashboard.png)
+**Results at a glance**
+- Tuned threshold to prioritize **Recall ≈ 0.98** (catch as many readmissions as possible)
+- **F1 ≈ 0.64**, **ROC-AUC ≈ 0.65**
+- Top drivers: `n_inpatient`, `n_emergency`, `n_medications`, `n_lab_procedures`, `time_in_hospital`
 
 **Quick links:**  
 - EDA notebook → [`00_capstone_eda.ipynb`](notebooks/00_capstone_eda.ipynb)  
@@ -46,7 +50,7 @@ Hospital_Readmission_Capstone/
 ---
 
 ## 🧪 Data
-- Source: Kaggle – *Hospital Readmissions* dataset.  
+- Source: Kaggle — **Hospital Readmissions**: https://www.kaggle.com/datasets/dubradave/hospital-readmissions
   Kaggle page: **(add link here)**  
 - To reproduce:
   1. Download the dataset locally.
