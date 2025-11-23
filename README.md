@@ -9,7 +9,7 @@ Recall-first ML project predicting 30-day hospital readmissions. Includes EDA &a
 Predicting 30-day hospital readmissions from structured EHR-like tabular data.  
 Focus: **high recall** to catch as many potential readmissions as possible, with model transparency and an Ops-friendly Power BI view.
 
-![Power BI Dashboard](reports/PowerBI_dashboard.png)
+![Power BI dashboard showing KPIs, probability distribution and top features](reports/PowerBI_dashboard.png)
 
 **Quick links:**  
 - EDA notebook → [`00_capstone_eda.ipynb`](notebooks/00_capstone_eda.ipynb)  
@@ -80,6 +80,12 @@ Tested on **Python 3.11** and **Power BI Desktop (Nov 2024+)**.
 ---
 
 ## 🚀 Quick Start
+**Open the work directly:**
+- EDA notebook → [`notebooks/00_capstone_eda.ipynb`](notebooks/00_capstone_eda.ipynb)
+- Modeling notebook → [`notebooks/01_capstone_models.ipynb`](notebooks/01_capstone_models.ipynb)
+- Slides (PDF) → [`reports/Capstone_HospReadmin_Final_MyoMyintAungJimmy.pdf`](reports/Capstone_HospReadmin_Final_MyoMyintAungJimmy.pdf)
+- Write-up (PDF) → [`reports/CapstoneProject_HospitalReadmission_WordReport_MyoMyintAungJimmy.pdf`](reports/CapstoneProject_HospitalReadmission_WordReport_MyoMyintAungJimmy.pdf)
+
 1. Clone or download this repo.  
 2. Open `reports/Capstone_HospReadmin_Final_MyoMyintAungJimmy.pptx` for a concise presentation.  
 3. Open notebooks in `notebooks/` to review full workflow (reading only; re-run optional).  
